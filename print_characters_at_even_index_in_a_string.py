@@ -6,8 +6,9 @@ user_input = input("Enter a word:")
 print("Original string is", user_input)
 
 # Display characters at even index numbers
+result = ''.join(user_input[i] for i in range(0, len(user_input), 2))
 
 # Print the result
-
+print("Characters at even index numbers:", ', '.join(result))
 
 
