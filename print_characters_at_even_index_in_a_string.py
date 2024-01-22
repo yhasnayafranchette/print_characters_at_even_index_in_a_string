@@ -9,6 +9,6 @@ print("Original string is", user_input)
 result = ''.join(user_input[i] for i in range(0, len(user_input), 2))
 
 # Print the result
-print("Characters at even index numbers:", ', '.join(result))
-
-
+print("Characters at even index characters")
+for character in result:
+    print(character)
